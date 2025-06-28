@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conference Registration</title>
+
+
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.css"
+    rel="stylesheet"
+  />
+
+ 
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body style="background-color: #f8f9fa">
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Registration now</h2>
+    <form class="bg-white p-4 shadow rounded">
+
+      
+      <div class="row mb-4">
+        <div class="col">
+          <div class="form-outline" data-mdb-input-init>
+            <input type="text" id="firstName" class="form-control" />
+            <label class="form-label" for="firstName">First name</label>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-outline" data-mdb-input-init>
+            <input type="text" id="lastName" class="form-control" />
+            <label class="form-label" for="lastName">Last name</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-outline mb-4" data-mdb-input-init>
+        <input type="email" id="email" class="form-control" />
+        <label class="form-label" for="email">Email address</label>
+      </div>
+
+      
+      <div class="form-outline mb-4" data-mdb-input-init>
+        <input type="password" id="password" class="form-control" />
+        <label class="form-label" for="password">Password</label>
+      </div>
+
+      
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input class="form-check-input me-2" type="checkbox" id="subscribe" checked />
+        <label class="form-check-label" for="subscribe">
+          Subscribe to our newsletter
+        </label>
+      </div>
+
+     
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary btn-block mb-4" data-mdb-ripple-init>
+          Sign up
+        </button>
+      </div>
+
+     
+      <div class="text-center">
+        <p>or sign up with:</p>
+        <button type="button" class="btn btn-secondary btn-floating mx-1" data-mdb-ripple-init>
+          <i class="fab fa-facebook-f"></i>
+        </button>
+        <button type="button" class="btn btn-secondary btn-floating mx-1" data-mdb-ripple-init>
+          <i class="fab fa-google"></i>
+        </button>
+        <button type="button" class="btn btn-secondary btn-floating mx-1" data-mdb-ripple-init>
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button type="button" class="btn btn-secondary btn-floating mx-1" data-mdb-ripple-init>
+          <i class="fab fa-github"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+
+ 
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.js"
+  ></script>
+</body>
+</html>
