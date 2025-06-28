@@ -271,7 +271,7 @@ html[dir="ltr"] {
     padding: 60px 20px;
     text-align: center;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
   }
 
 
@@ -308,6 +308,33 @@ html[dir="ltr"] {
     
   }
 
+.logo-card1 {
+    width: 400px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
   .logo-card {
     width: 300px;
     height: 180px;
@@ -324,6 +351,13 @@ html[dir="ltr"] {
   }
 
   .logo-card:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 232, 170, 0.2);
+    border-color: rgba(0, 232, 170, 0.4);
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .logo-card1:hover {
     transform: translateY(-8px) scale(1.05);
     box-shadow: 0 15px 40px rgba(0, 232, 170, 0.2);
     border-color: rgba(0, 232, 170, 0.4);
@@ -348,8 +382,7 @@ html[dir="ltr"] {
       gap: 20px;
     }
     
-  
-    
+
    
   }
 
@@ -365,16 +398,15 @@ html[dir="ltr"] {
 
 
 #about{
-   margin-top: 0;
+
   position: relative;
   height: 100vh;
   overflow: hidden;
-  
   background-size: cover;
   background-size: contain; 
   background-size: 100% 100%;
   background-repeat:no-repeat;
-  overflow: hidden;
+  overflow: visible;
 }
 
 #about::before {
@@ -405,7 +437,8 @@ html[dir="ltr"] {
 
 
 .p-about{
-  margin-top: 17px;
+  margin: 7px 7px;
+ 
     font-weight: 300;
     font-size: 1.1rem;
     line-height: 1.8;
@@ -472,11 +505,20 @@ h3{
 /* strar sponsor */
 .visitor-info{
   
-  padding: 10px 0;
+  
+  margin-bottom: 60px;
   width: 90%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 12px;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.15);
+  background: #0e2358;
+  position: relative;
+  overflow: visible;
+  z-index: 2;
  
-  margin-bottom: auto;
+  
  
   border-radius: 12px;
   box-shadow: 0 5px 9px white;
