@@ -458,17 +458,21 @@ body {
 }
 
 
-.p-about{
-  margin: 7px 7px;
- 
-    font-weight: 300;
-    font-size: 1.1rem;
-    line-height: 1.8;
-     position: relative;  
-     z-index: 2;           /* أعلى من الخلفية */
-     text-align: center;
-  color: #2c2a2a;
-  text-align:justify;
+.p-about {
+  margin: 0.5rem 0;       /* هوامش متوازنة (أفضل من 7px) */
+  padding: 0 1rem;        /* Padding جانبي للقراءة المريحة */
+  font-weight: 400;       /* وزن خط أوضح (300 قد يكون خفيفًا جدًا) */
+  font-size: 1.1rem;
+  line-height: 1.6;       /* تعديل لتوازن أفضل بين السطور */
+  color: #333;            /* لون أغمق قليلًا لتحسين الوضوح */
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;          /* تقسيم الكلمات عند الضرورة */
+  letter-spacing: 0.3px;  /* تباعد حروف دقيق */
+  word-spacing: 0.5px;    /* تباعد كلمات متوازن */
+  max-width: 800px;       /* عرض مثالي للقراءة */
+  margin-left: auto;      /* توسيط العنصر */
+  margin-right: auto;
 }
 
 .row {
@@ -510,12 +514,17 @@ body {
 }
 
 h3{
-    font-weight:600;
+    font-weight:5000;
+      color: #222;
+      font-size: 20px;
+      margin-bottom: 30px;
+
    
 
 }
 #p-value{
     font-weight: 450;
+    color: #545454d1;
    
 
 }
@@ -1056,7 +1065,7 @@ h3{
 }
 
 .footer .icon-connect a {
-  color: #ffffff;
+  color: #0f2027;
   font-size: 1.5rem;
   transition: transform 0.3s, color 0.3s;
 }
