@@ -114,6 +114,7 @@ body {
     line-height: 1.6;
     animation: fadeInUp 1s ease 0.2s forwards;
     opacity: 0;
+    margin: auto;
 }
 
 .main-pag h3 {
@@ -222,12 +223,16 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    
 }
 
 .icon {
     font-size: 1em;
     display: inline-flex;
     color: var(--accent-color);
+}
+.main-content span {
+  color: white;
 }
 
 
